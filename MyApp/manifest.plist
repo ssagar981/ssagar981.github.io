@@ -2,30 +2,44 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>destination</key>
-	<string>export</string>
-	<key>iCloudContainerEnvironment</key>
-	<string>Production</string>
-	<key>manageAppVersionAndBuildNumber</key>
-	<true/>
-	<key>method</key>
-	<string>app-store</string>
-	<key>provisioningProfiles</key>
-	<dict>
-		<key>com.hcl.dryicesupportcenter</key>
-		<string>DRYiCE Support Center App Store</string>
-	</dict>
-	<key>signingCertificate</key>
-	<string>Apple Distribution</string>
-	<key>signingStyle</key>
-	<string>manual</string>
-	<key>stripSwiftSymbols</key>
-	<true/>
-	<key>teamID</key>
-	<string>4EDX29VVN3</string>
-	<key>uploadBitcode</key>
-	<true/>
-	<key>uploadSymbols</key>
-	<true/>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://ssagar981.github.io/MyApp/MyApp.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://ssagar981.github.io/MyApp/images/icon57x57.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://ssagar981.github.io/MyApp/images/icon512x512.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.hcl.cherwellgbp.internal</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
+				<key>title</key>
+				<string>MyDemoProject</string>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
